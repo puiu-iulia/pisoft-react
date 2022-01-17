@@ -14,7 +14,6 @@ const AppRouter = () => {
     return (
         <Router>
             <HeaderWithRouter />
-            {/* <div  style={{height: 1, backgroundColor: '#4f877c'}}/> */}
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Container>
@@ -23,7 +22,6 @@ const AppRouter = () => {
                     <Route path="/contact" component={Contact} />
                 </Container>
             </Switch>
-            <div  style={{height: 100, backgroundColor: '#4f877c'}}/>
         </Router>
     )
 }

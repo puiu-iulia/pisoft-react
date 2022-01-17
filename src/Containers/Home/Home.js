@@ -1,4 +1,4 @@
-import { Row, Button, Carousel } from 'react-bootstrap'
+import { Row, Button, Carousel, Card } from 'react-bootstrap'
 import { useHistory } from "react-router-dom";
 
 const Home = () => {
@@ -61,6 +61,9 @@ const Home = () => {
                 {/* </Col> */}
                 {/* <Col></Col> */}
             </Row>
+            <Card.Footer style={{backgroundColor: '#4f877c', padding: 48}}>
+                <Card.Text style={{textAlign: 'center'}}>&copy; 2022 Pisoft. All rights reserved.</Card.Text>
+            </Card.Footer>
         </div>
     )
 }
