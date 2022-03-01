@@ -1,4 +1,4 @@
-import { Container, Row, Col, Navbar, Nav, Text, Image, Button, Carousel } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 
 const Services = () => {
     return (
